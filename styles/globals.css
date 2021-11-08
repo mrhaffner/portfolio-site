@@ -5,19 +5,19 @@
 .card {
   perspective: 150rem;
   position: relative;
-  height: 97vw;
+  padding-top: 100%;
   transform-style: preserve-3d;
 }
 
 @screen md {
   .card {
-    height: 50vw;
+    padding-top: 50%;
   }
 }
 
 @screen lg {
   .card {
-    height: 33.33333333vw;
+    padding-top: 33.33333333333%;
   }
 }
 
