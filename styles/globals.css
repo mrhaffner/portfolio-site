@@ -5,7 +5,20 @@
 .card {
   perspective: 150rem;
   position: relative;
-  height: 33vw;
+  height: 97vw;
+  transform-style: preserve-3d;
+}
+
+@screen md {
+  .card {
+    height: 50vw;
+  }
+}
+
+@screen lg {
+  .card {
+    height: 33.33333333vw;
+  }
 }
 
 .card-side {
@@ -18,6 +31,7 @@
 
 .back {
   transform: rotateY(-180deg);
+  background-color: blueviolet;
 }
 
 .front {
