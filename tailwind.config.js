@@ -6,6 +6,9 @@ module.exports = {
       flex: {
         '1/3': '0 0 33.333333%',
       },
+      width: {
+        240: '60rem',
+      },
     },
   },
   variants: {

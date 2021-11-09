@@ -17,7 +17,7 @@ const SkillsList = () => {
       <h2 className="">Skills and Expertise</h2>
       <h3 className="">Experience working with the following technologies</h3>
 
-      <div className="skill-container-width flex flex-wrap justify-center">
+      <div className="w-full lg:w-240 flex flex-wrap justify-center">
         <LogoContainer>
           <TypescriptLogo
             colorPrimary={colorPrimary}

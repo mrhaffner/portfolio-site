@@ -44,7 +44,3 @@
 .card:hover .back {
   transform: rotateY(0deg);
 }
-
-.skill-container-width {
-  width: 60rem;
-}
