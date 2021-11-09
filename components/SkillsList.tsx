@@ -14,9 +14,6 @@ const SkillsList = () => {
 
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <h2 className="">Skills and Expertise</h2>
-      <h3 className="">Experience working with the following technologies</h3>
-
       <div className="w-full lg:w-240 flex flex-wrap justify-center">
         <LogoContainer>
           <TypescriptLogo
@@ -62,7 +59,7 @@ const SkillsList = () => {
           />
         </LogoContainer>
         <LogoContainer>
-          <div className="w-full h-full flex justify-center items-center">
+          <>
             <CssLogo
               colorPrimary={colorPrimary}
               colorSecondary={colorSecondary}
@@ -70,10 +67,11 @@ const SkillsList = () => {
               width={maxSize / 3}
             />
             <p>CSS</p>
-          </div>
+            <span className="opacity-0">SS</span>
+          </>
         </LogoContainer>
         <LogoContainer>
-          <div className="w-full h-full flex justify-center items-center">
+          <>
             <HtmlLogo
               colorPrimary={colorPrimary}
               colorSecondary={colorSecondary}
@@ -81,7 +79,7 @@ const SkillsList = () => {
               width={maxSize / 3}
             />
             <p>HTML</p>
-          </div>
+          </>
         </LogoContainer>
       </div>
     </div>

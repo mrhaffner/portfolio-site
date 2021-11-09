@@ -13,6 +13,7 @@ const MongoLogo = ({ colorPrimary, colorSecondary, height, width }: Props) => (
     width={width}
     height={height}
     viewBox="0 0 1112.61 300"
+    className="-mt-1"
   >
     <defs></defs>
     <title>MongoDB_Logo_FullColorBlack_RGB</title>

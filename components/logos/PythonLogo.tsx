@@ -14,6 +14,7 @@ const PythonLogo = ({ colorPrimary, colorSecondary, height, width }: Props) => (
     viewBox="0 0 512 512"
     xmlSpace="preserve"
     xmlns="http://www.w3.org/2000/svg"
+    className="-mt-1"
   >
     <g id="Layer_4">
       <g>
