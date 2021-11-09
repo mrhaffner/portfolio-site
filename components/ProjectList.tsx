@@ -6,13 +6,12 @@ import projectDetails from '../public/project-details.json';
 import FlipCard from './FlipCard';
 import { ProjectDetail } from '../types';
 //background color for empty boxes - not white?
-//i want these guys to spin and then reveal project details
 //add breakpoints
 
 const ProjectList = () => {
   const imageArray = [forecastImage, trelloClone, personalBlog, onTheSnowClone];
   return (
-    <div className="w-full h-full flex flex-wrap justify-center flip-card">
+    <div className="w-full h-full flex flex-wrap justify-center">
       {projectDetails.data.map((detail: ProjectDetail, i: number) => (
         <FlipCard
           image={imageArray[i]}

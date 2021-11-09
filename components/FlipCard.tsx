@@ -16,7 +16,7 @@ const FlipCard = ({ image, projectDetail }: Props) => {
           layout="responsive"
         />
       </div>
-      <div className="card-side back w-full h-full">
+      <div className="card-side back w-full h-full flex justify-center items-center">
         <div>{projectDetail.title}</div>
       </div>
     </div>
