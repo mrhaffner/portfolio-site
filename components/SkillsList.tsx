@@ -22,7 +22,9 @@ const SkillsList = () => {
           <PythonLogo height={maxSize} width={maxSize} />
         </LogoContainer>
         <LogoContainer>
-          <p className="hover:text-hoverSkyBlue">SQL</p>
+          <p className="hover:text-hoverSkyBlue text-4xl font-semibold tracking-wide">
+            SQL
+          </p>
         </LogoContainer>
         <LogoContainer>
           <NodeLogo height={maxSize} width={maxSize} />
@@ -40,7 +42,7 @@ const SkillsList = () => {
               height={maxSize / 3}
               width={maxSize / 3}
             />
-            <p>CSS</p>
+            <p className="text-4xl font-semibold">CSS</p>
             <span className="opacity-0">SS</span>
           </>
         </LogoContainer>
@@ -51,7 +53,7 @@ const SkillsList = () => {
               height={maxSize / 3}
               width={maxSize / 3}
             />
-            <p>HTML</p>
+            <p className="text-4xl font-semibold">HTML</p>
           </>
         </LogoContainer>
       </div>
