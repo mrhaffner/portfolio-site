@@ -9,8 +9,7 @@ export default class MyDocument extends Document {
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
-            //@ts-ignore
-            crossOrigin
+            crossOrigin="true"
           ></link>
           <link
             href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
