@@ -1,22 +1,19 @@
 interface Props {
-  colorPrimary: string;
   colorSecondary: string;
   height: number;
   width: number;
 }
 
-const CssLogo = ({ colorPrimary, colorSecondary, height, width }: Props) => (
+const CssLogo = ({ colorSecondary, height, width }: Props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
     viewBox="0 0 512 512"
+    className="fill-current"
   >
-    <path
-      fill={colorPrimary}
-      d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"
-    />
-    <path fill={colorPrimary} d="M405.388 431.408l35.148-393.73H256v435.146z" />
+    <path d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z" />
+    <path d="M405.388 431.408l35.148-393.73H256v435.146z" />
     <path
       fill={colorSecondary}
       d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"

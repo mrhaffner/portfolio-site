@@ -1,20 +1,19 @@
 interface Props {
-  colorPrimary: string;
   colorSecondary: string;
   height: number;
   width: number;
 }
 
-const HtmlLogo = ({ colorPrimary, colorSecondary, height, width }: Props) => (
+const HtmlLogo = ({ colorSecondary, height, width }: Props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
     viewBox="0 0 512 512"
+    className="fill-current"
   >
-    <title>HTML5 Logo Badge</title>
-    <path fill={colorPrimary} d="M71,460 L30,0 481,0 440,460 255,512" />
-    <path fill={colorPrimary} d="M256,472 L405,431 440,37 256,37" />
+    <path d="M71,460 L30,0 481,0 440,460 255,512" />
+    <path d="M256,472 L405,431 440,37 256,37" />
     <path
       fill={colorSecondary}
       d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"
