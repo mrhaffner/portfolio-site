@@ -25,7 +25,7 @@ const FlipCard = ({ image, project }: Props) => {
         </h3>
         {project?.website && (
           <Link href={project.website}>
-            <a className="mb-8 py-2 px-10 bg-darkSlateBlue hover:bg-lightSlateBlue text-white rounded text-xl font-semibold tracking-wide">
+            <a className="mb-8 py-2 px-10 bg-darkSlateBlue hover:bg-lightSlateBlue text-white rounded text-lg font-semibold tracking-wider uppercase">
               See It Live!
             </a>
           </Link>

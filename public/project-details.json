@@ -23,7 +23,7 @@
       "title": "On The Snow Clone",
       "githubFront": "https://github.com/mrhaffner/on-the-snow-front",
       "githubBack": "https://github.com/mrhaffner/on-the-snow-api",
-      "tags": ["ReactJS", "Typescript", "Python", "Flask", "SQLite"]
+      "tags": ["Python", "Flask", "SQLite", "ReactJS", "Typescript"]
     }
   ]
 }
