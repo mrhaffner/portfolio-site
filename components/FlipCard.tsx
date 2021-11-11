@@ -25,7 +25,6 @@ const FlipCard = ({ image, project }: Props) => {
         </h3>
         {project?.website && (
           <Link href={project.website}>
-            {/* darker green? */}
             <a className="py-2 px-10 bg-darkSlateBlue hover:bg-lightSlateBlue text-white rounded text-xl font-semibold tracking-wide">
               See It Live!
             </a>
@@ -42,17 +41,21 @@ const FlipCard = ({ image, project }: Props) => {
         <div className="flex text-xl my-3 space-x-4">
           {project?.githubFront && (
             <Link href={project.githubFront}>
-              <a className="flex space-x-1">
+              <a className="flex space-x-1 hover:text-brightSkyBlue transition">
                 <GithubLogo height={octoCatSize} width={octoCatSize} />
-                <span>Front End</span>
+                <span className="border-b-4 border-brightSkyBlue text-lightSlateBlue">
+                  Front End
+                </span>
               </a>
             </Link>
           )}
           {project?.githubBack && (
             <Link href={project.githubBack}>
-              <a className="flex space-x-1">
+              <a className="flex space-x-1 hover:text-brightSkyBlue transition">
                 <GithubLogo height={octoCatSize} width={octoCatSize} />
-                <span>Back End</span>
+                <span className="border-b-4 border-brightSkyBlue text-lightSlateBlue">
+                  Back End
+                </span>
               </a>
             </Link>
           )}
