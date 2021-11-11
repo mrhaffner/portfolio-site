@@ -5,12 +5,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      flex: {
-        '1/3': '0 0 33.333333%',
-      },
-      width: {
-        240: '60rem',
-      },
       colors: {
         midnightBlue: 'rgb(4, 0, 63)',
         brightSkyBlue: 'rgb(0, 185, 254)',
@@ -24,6 +18,12 @@ module.exports = {
         blueGray: colors.blueGray,
         coolGray: colors.coolGray,
         trueGray: colors.trueGray,
+      },
+      flex: {
+        '1/3': '0 0 33.333333%',
+      },
+      width: {
+        240: '60rem',
       },
       zIndex: {
         '-10': '-10',

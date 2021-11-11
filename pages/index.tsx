@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="text-center bg-midnightBlue text-white">
         <h2 className="uppercase text-4xl font-extrabold tracking-wide">
-          Skills and Expertise
+          Technologies I Love
         </h2>
         <h3 className="text-xl tracking-wide">
           Experience working with the following technologies

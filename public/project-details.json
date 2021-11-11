@@ -1,16 +1,29 @@
 {
   "data": [
     {
-      "title": "Forecast Your Snow"
+      "title": "Forecast Your Snow",
+      "githubFront": "https://github.com/mrhaffner/ski-pass-snow-compare-front",
+      "githubBack": "https://github.com/mrhaffner/ski-pass-snow-compare",
+      "website": "https://ski-pass-snow-compare-front.vercel.app/",
+      "tags": ["ReactJS", "Typescript", "Java", "Spring Boot", "PostreSQL"]
     },
     {
-      "title": "Trello Clone"
+      "title": "Trello Clone",
+      "githubFront": "https://github.com/mrhaffner/visual-signal",
+      "githubBack": "https://github.com/mrhaffner/visual-signal-api",
+      "tags": ["ReactJS", "Typescript", "GraphQL", "MongoDB", "NodeJS"]
     },
     {
-      "title": "Personal Blog"
+      "title": "Personal Blog",
+      "githubFront": "https://github.com/mrhaffner/personal-blog-front",
+      "githubBack": "https://github.com/mrhaffner/personal-blog-api",
+      "tags": ["ReactJS", "Docker", "Redux", "NodeJS", "MongoDB"]
     },
     {
-      "title": "One The Snow Clone"
+      "title": "On The Snow Clone",
+      "githubFront": "https://github.com/mrhaffner/on-the-snow-front",
+      "githubBack": "https://github.com/mrhaffner/on-the-snow-api",
+      "tags": ["ReactJS", "Typescript", "Python", "Flask", "SQLite"]
     }
   ]
 }
