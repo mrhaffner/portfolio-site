@@ -45,7 +45,10 @@ const FlipCard = ({ image, project }: Props) => {
         {/* try a different color for tags */}
         <div className="flex flex-wrap justify-center w-2/3 space-x-2">
           {project.tags.map((tag: string) => (
-            <p className="py-1 px-3 mb-2 border-2 border-midnightBlue rounded-full font-medium">
+            <p
+              className="py-1 px-3 mb-2 border-2 border-midnightBlue rounded-full font-medium"
+              key={tag + Math.random()}
+            >
               {tag}
             </p>
           ))}
