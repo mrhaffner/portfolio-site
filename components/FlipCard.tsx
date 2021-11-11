@@ -8,7 +8,7 @@ interface Props {
 
 const FlipCard = ({ image, projectDetail }: Props) => {
   return (
-    <div className="card w-full md:flex-1/2 md:w-1/2 lg:flex-1/3 lg:w-1/2">
+    <div className="card w-full md:flex-1/2 md:w-1/2 lg:flex-1/3 lg:w-1/3 text-midnightBlue">
       <div className="card-side front w-full h-full">
         <Image
           src={image}
@@ -16,7 +16,7 @@ const FlipCard = ({ image, projectDetail }: Props) => {
           layout="responsive"
         />
       </div>
-      <div className="card-side back w-full h-full flex justify-center items-center">
+      <div className="card-side back w-full h-full flex justify-center items-center bg-mint">
         <div>{projectDetail.title}</div>
       </div>
     </div>

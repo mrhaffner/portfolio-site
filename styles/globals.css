@@ -31,7 +31,6 @@
 
 .back {
   transform: rotateY(-180deg);
-  background-color: blueviolet;
 }
 
 .front {
@@ -43,4 +42,8 @@
 
 .card:hover .back {
   transform: rotateY(0deg);
+}
+
+.aspect {
+  padding-top: 100%;
 }
