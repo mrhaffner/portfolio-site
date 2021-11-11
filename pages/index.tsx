@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         </h3>
         <SkillsList />
       </div>
-      <div className="text-center bg-mint text-midnightBlue">
+      <div className="text-center bg-mint text-darkSlateBlue">
         <h2 className="uppercase text-4xl font-extrabold tracking-wide">
           Selected Projects
           <span className="text-gradientPink font-black">.</span>
