@@ -23,6 +23,7 @@ const FlipCard = ({ image, project }: Props) => {
         <h3 className="text-2xl font-bold uppercase tracking-wider">
           {project.title}
         </h3>
+        {/* add pink or blue underline to link, maybe hover effect */}
         <div className="flex text-midnightBlue text-xl my-3 space-x-4">
           {project?.githubFront && (
             <Link href={project.githubFront}>
@@ -41,7 +42,7 @@ const FlipCard = ({ image, project }: Props) => {
             </Link>
           )}
         </div>
-
+        {/* try a different color for tags */}
         <div className="flex flex-wrap justify-center w-2/3 space-x-2">
           {project.tags.map((tag: string) => (
             <p className="py-1 px-3 mb-2 border-2 border-midnightBlue rounded-full font-medium">
