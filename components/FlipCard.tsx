@@ -17,7 +17,9 @@ const FlipCard = ({ image, projectDetail }: Props) => {
         />
       </div>
       <div className="card-side back w-full h-full flex justify-center items-center bg-mint">
-        <div>{projectDetail.title}</div>
+        <div className="text-2xl font-bold uppercase tracking-wider">
+          {projectDetail.title}
+        </div>
       </div>
     </div>
   );

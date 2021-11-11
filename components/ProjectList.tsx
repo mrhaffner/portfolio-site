@@ -11,7 +11,7 @@ import { ProjectDetail } from '../types';
 const ProjectList = () => {
   const imageArray = [forecastImage, trelloClone, personalBlog, onTheSnowClone];
   return (
-    <div className="w-full h-full flex flex-wrap justify-center bg-lightMint">
+    <div className="w-full h-full flex flex-wrap bg-lightMint">
       {projectDetails.data.map((detail: ProjectDetail, i: number) => (
         <FlipCard
           image={imageArray[i]}
@@ -19,6 +19,7 @@ const ProjectList = () => {
           key={i + Math.random()}
         />
       ))}
+      <div className="bg-mint flex-1"></div>
     </div>
   );
 };
