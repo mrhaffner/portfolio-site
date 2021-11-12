@@ -37,7 +37,7 @@ const FlipCard = ({ image, project }: Props) => {
             <span className="text-gradientPink">:</span>
           </p>
         )}
-        <div className="flex text-xl my-3 space-x-4">
+        <div className="flex text-xl my-3 space-x-8">
           {project?.githubFront && (
             <Link href={project.githubFront}>
               <a className="flex space-x-1 hover:text-brightSkyBlue transition">
