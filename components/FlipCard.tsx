@@ -61,7 +61,7 @@ const FlipCard = ({ image, project }: Props) => {
         </div>
         <div
           className={`flex flex-wrap justify-center w-2/3 space-x-2 ${
-            project?.website ? 'mt-2' : 'mt-10'
+            project?.website ? 'mt-3' : 'mt-10'
           }`}
         >
           {project.tags.map((tag: string) => (
