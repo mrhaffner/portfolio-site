@@ -20,26 +20,31 @@ const ProjectList = () => {
       setShowing('');
     }
   }, [width]);
+
   return (
     <div className="w-full h-full flex flex-wrap bg-lightMint">
-      {data.map((detail: ProjectDetail, i: number) =>
-        width >= 648 ? (
-          <ProjectFlipCard
-            image={imageArray[i]}
-            project={detail}
-            key={i + Math.random()}
-          />
-        ) : (
-          <ProjectMobileCard
-            image={imageArray[i]}
-            project={detail}
-            key={i + Math.random()}
-            showing={showing}
-            setShowing={setShowing}
-          />
-        ),
+      {width > 0 && (
+        <>
+          {data.map((detail: ProjectDetail, i: number) =>
+            width >= 648 ? (
+              <ProjectFlipCard
+                image={imageArray[i]}
+                project={detail}
+                key={i + Math.random()}
+              />
+            ) : (
+              <ProjectMobileCard
+                image={imageArray[i]}
+                project={detail}
+                key={i + Math.random()}
+                showing={showing}
+                setShowing={setShowing}
+              />
+            ),
+          )}
+          <div className="bg-mint flex-1"></div>
+        </>
       )}
-      <div className="bg-mint flex-1"></div>
     </div>
   );
 };
