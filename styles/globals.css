@@ -45,5 +45,5 @@
 }
 
 .aspect {
-  padding-top: 100%;
+  aspect-ratio: 1 / 1;
 }
