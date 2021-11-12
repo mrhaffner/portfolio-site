@@ -5,6 +5,7 @@ export const colors = {
   brightSkyBlue: 'rgb(0, 185, 254)',
   hoverSkyBlue: 'rgb(82, 206, 252)',
   mint: 'rgb(0, 185, 254)',
+  lightMint: 'rgb(178, 237, 224)',
   lightSlateBlue: 'rgb(55, 72, 134)',
   darkSlateBlue: 'rgb(40, 56, 111)',
   gradientPink: 'rgb(235, 56, 166)',

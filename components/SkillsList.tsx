@@ -7,6 +7,7 @@ import PythonLogo from './logos/PythonLogo';
 import ReactLogo from './logos/ReactLogo';
 import TypescriptLogo from './logos/TypescriptLogo';
 import { colors } from '../styles/colors';
+import DatabaseLogo from './logos/DatabaseLogo';
 
 const SkillsList = () => {
   const colorSecondary = colors.midnightBlue;
@@ -22,7 +23,10 @@ const SkillsList = () => {
           <PythonLogo height={maxSize} width={maxSize} />
         </LogoContainer>
         <LogoContainer>
-          <p className="text-4xl tracking-wide">SQL</p>
+          <>
+            <DatabaseLogo height={maxSize / 3} width={maxSize / 3} />
+            <span className="text-4xl tracking-wide ml-1">SQL</span>
+          </>
         </LogoContainer>
         <LogoContainer>
           <NodeLogo height={maxSize} width={maxSize} />

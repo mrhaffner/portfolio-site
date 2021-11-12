@@ -5,8 +5,6 @@ import onTheSnowClone from '../public/images/project-list/on-the-snow-clone.jpeg
 import projectDetails from '../public/project-details.json';
 import FlipCard from './FlipCard';
 import { ProjectDetail } from '../types';
-//background color for empty boxes - not white?
-//add breakpoints
 
 const ProjectList = () => {
   const imageArray = [forecastImage, trelloClone, personalBlog, onTheSnowClone];
@@ -20,7 +18,6 @@ const ProjectList = () => {
           key={i + Math.random()}
         />
       ))}
-      {/* maybe add pattern? */}
       <div className="bg-mint flex-1"></div>
     </div>
   );
