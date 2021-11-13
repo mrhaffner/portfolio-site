@@ -9,7 +9,7 @@ const MediaLinks = () => {
   return (
     <div className="flex space-x-5">
       <Link href="https://github.com/mrhaffner">
-        <a className="hover:text-hoverSkyBlue">
+        <a className="hover:text-hoverSkyBlue transition">
           <GithubLogo height={logoSize} width={logoSize} />
         </a>
       </Link>
@@ -19,7 +19,7 @@ const MediaLinks = () => {
         </a>
       </Link>
       <Link href="mailto:mrhaffner@gmail.com">
-        <a className="hover:text-hoverSkyBlue">
+        <a className="hover:text-hoverSkyBlue transition">
           <EmailLogo size={logoSize} />
         </a>
       </Link>

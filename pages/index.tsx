@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           Technologies I Love
         </h2>
         <h3 className="text-xl tracking-wide pb-12">
-          Experience working with the following technologies
+          I may know a thing or two about these technologies
           <span className="text-gradientPink font-black">.</span>
         </h3>
         <SkillsList />
