@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import ProjectList from '../components/ProjectList';
 import SkillsList from '../components/SkillsList';
 
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         </h2>
         <ProjectList />
       </section>
+      <Footer />
     </div>
   );
 };

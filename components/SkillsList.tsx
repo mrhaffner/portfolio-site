@@ -1,13 +1,12 @@
-import CssLogo from './logos/CssLogo';
-import HtmlLogo from './logos/HtmlLogo';
-import LogoContainer from './logos/LogoContainer';
-import MongoLogo from './logos/MongoLogo';
-import NodeLogo from './logos/NodeLogo';
-import PythonLogo from './logos/PythonLogo';
-import ReactLogo from './logos/ReactLogo';
-import TypescriptLogo from './logos/TypescriptLogo';
+import CssLogo from './svgs/CssLogo';
+import HtmlLogo from './svgs/HtmlLogo';
+import MongoLogo from './svgs/MongoLogo';
+import NodeLogo from './svgs/NodeLogo';
+import PythonLogo from './svgs/PythonLogo';
+import ReactLogo from './svgs/ReactLogo';
+import TypescriptLogo from './svgs/TypescriptLogo';
 import { colors } from '../styles/colors';
-import DatabaseLogo from './logos/DatabaseLogo';
+import DatabaseLogo from './svgs/DatabaseLogo';
 
 const SkillsList = () => {
   const colorSecondary = colors.midnightBlue;

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ProjectDetail } from '../types';
-import GithubLogo from './logos/GithubLogo';
+import GithubLogo from './svgs/GithubLogo';
 
 interface Props {
   project: ProjectDetail;
