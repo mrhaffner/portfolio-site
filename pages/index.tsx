@@ -18,11 +18,13 @@ const Home: NextPage = () => {
       </Head>
       <div className="relative h-screen w-full">
         <ThreeDBG />
-
         <NavBar />
         <Header />
       </div>
-      <section className="text-center bg-midnightBlue text-white py-32">
+      <section
+        id="skills"
+        className="text-center bg-midnightBlue text-white py-32"
+      >
         <h2 className="uppercase text-4xl font-extrabold tracking-wide pb-2">
           Technologies I Love
         </h2>
@@ -32,7 +34,10 @@ const Home: NextPage = () => {
         </h3>
         <SkillsList />
       </section>
-      <section className="text-center bg-mint text-darkSlateBlue py-32">
+      <section
+        id="projects"
+        className="text-center bg-mint text-darkSlateBlue py-32"
+      >
         <h2 className="uppercase text-4xl font-extrabold tracking-wide pb-16">
           Selected Projects
           <span className="text-gradientPink font-black">.</span>
