@@ -166,7 +166,7 @@ const ThreeDBG = () => {
     tick();
   }, []);
   return (
-    <div className="flex w-full h-full">
+    <div className="flex w-full h-full absolute -z-10">
       <canvas className="webgl block overflow-hidden flex-1" />
     </div>
   );
