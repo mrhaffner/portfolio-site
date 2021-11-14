@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import NavBar from '../components/NavBar';
 import ProjectList from '../components/ProjectList';
 import SkillsList from '../components/SkillsList';
 import ThreeDBG from '../components/ThreeDBG';
@@ -16,7 +17,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative h-screen w-full">
-        {/* Nav */}
+        <ThreeDBG />
+
+        <NavBar />
         <Header />
       </div>
       <section className="text-center bg-midnightBlue text-white py-32">
