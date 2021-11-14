@@ -3,7 +3,8 @@ import Link from 'next/link';
 const NavBar = () => (
   //breakpoints
   //mobile menu
-  <nav className="w-full h-20 flex justify-between items-center px-28 text-midnightBlue uppercase tracking-wide font-bold">
+  <nav className="w-full h-20 flex justify-between items-center px-28 text-midnightBlue uppercase tracking-wide font-bold text-lg">
+    {/* perhaps a better logo */}
     <Link href="/">
       <a>
         Matt<span className="text-gradientPink font-black">.</span>Haffner
@@ -11,7 +12,6 @@ const NavBar = () => (
       </a>
     </Link>
     <ul className="flex space-x-8">
-      {/* animate underline on hover */}
       <li>
         <Link href="#skills">
           <a className="mint-underline">Skills</a>

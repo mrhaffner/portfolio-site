@@ -11,7 +11,7 @@ interface Props {
 }
 
 const ProjectMobileCard = ({ image, project, showing, setShowing }: Props) => (
-  <div className="w-full">
+  <div className="w-full cursor-pointer">
     {showing !== project.title && (
       <div onClick={() => setShowing(project.title)}>
         <Image
