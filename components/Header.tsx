@@ -9,12 +9,12 @@ const Header = () => {
     'Innovation',
     'Growth',
   ];
-  //continuous Ed,
   const { word: buzzWord } = useTextSlider(buzzWords);
 
   return (
     //add breakpoint for h-header, probably in css file
-    <section className="h-header flex items-center text-midnightBlue">
+    //add regular breakpoints
+    <section className="h-header flex items-center text-darkSlateBlue">
       <div className="flex justify-between h-3/4 w-full px-28">
         <div className="flex flex-col justify-between">
           <h1 className="text-6xl font-bold tracking-wide space-y-2">
@@ -40,7 +40,7 @@ const Header = () => {
         <div className="flex flex-col justify-between items-end py-20">
           <h2 className="text-3xl font-bold tracking-wide flex flex-col items-end">
             <p>I am a Fullstack Javascript</p>
-            <p> and Python Developer</p>
+            <p>and Python Developer</p>
           </h2>
           <div className="uppercase flex flex-col items-end">
             <h3 className="text-xl font-semibold tracking-wide">

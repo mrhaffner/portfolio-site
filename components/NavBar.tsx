@@ -3,7 +3,7 @@ import Link from 'next/link';
 const NavBar = () => (
   //breakpoints
   //mobile menu
-  <nav className="w-full h-20 flex justify-between items-center px-28 text-midnightBlue tracking-wide font-bold text-lg">
+  <nav className="w-full h-20 flex justify-between items-center px-28 text-darkSlateBlue tracking-wide font-bold text-lg">
     {/* perhaps a better logo */}
     <Link href="/">
       <a className="font-arizonia text-3xl">
