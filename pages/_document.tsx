@@ -19,6 +19,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap"
             rel="stylesheet"
           ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <body style={{ fontFamily: 'Raleway, sans-serif' }}>
           <Main />

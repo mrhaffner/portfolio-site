@@ -23,6 +23,7 @@ module.exports = {
         '1/3': '0 0 33.333333%',
       },
       fontFamily: {
+        arizonia: 'Arizonia, cursive',
         pontano: 'Pontano Sans, sans-serif',
       },
       width: {
