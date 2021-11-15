@@ -25,8 +25,8 @@ const Header = () => {
               I<span className="text-mint">'</span>m Matt
             </p>
           </h1>
-          <div className="text-gradientPink">
-            <MediaLinks />
+          <div className="text-brightSkyBlue">
+            <MediaLinks size={37} />
           </div>
           <div className="text-xl font-semibold">
             <p>

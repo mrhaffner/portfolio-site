@@ -3,8 +3,12 @@ import EmailLogo from './svgs/EmailLogo';
 import GithubLogo from './svgs/GithubLogo';
 import LinkedInLogo from './svgs/LinkedInLogo';
 
-const MediaLinks = () => {
-  const logoSize = 33;
+interface Props {
+  size?: number;
+}
+
+const MediaLinks = ({ size }: Props) => {
+  const logoSize = size || 33;
 
   return (
     <div className="flex space-x-5">
