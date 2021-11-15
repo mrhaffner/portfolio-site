@@ -5,11 +5,12 @@
 .card {
   perspective: 150rem;
   position: relative;
-  padding-top: 100%;
+  /* padding-top: 100%; */
   transform-style: preserve-3d;
+  aspect-ratio: 1 / 1;
 }
 
-@screen md {
+/* @screen md {
   .card {
     padding-top: 50%;
   }
@@ -19,7 +20,7 @@
   .card {
     padding-top: 33.33333333333%;
   }
-}
+} */
 
 .card-side {
   transition: all 0.8s ease;

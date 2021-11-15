@@ -8,7 +8,7 @@ interface Props {
 }
 
 const ProjectFlipCard = ({ image, project }: Props) => (
-  <div className="card w-full md:flex-1/2 md:w-1/2 lg:flex-1/3 lg:w-1/3">
+  <div className="card w-full lg:flex-1/2 lg:w-1/2 xl:flex-1/3 xl:w-1/3">
     <div className="card-side front w-full h-full">
       <Image
         src={image}
