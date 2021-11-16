@@ -13,8 +13,8 @@ const SkillsList = () => {
   const maxSize = 215;
 
   return (
-    <div className="w-full flex flex-col justify-center items-center text-brightSkyBlue">
-      <div className="w-full lg:w-240 flex flex-wrap justify-center font-semibold select-none">
+    <div className="sm:ml-10 lg:ml-24 text-brightSkyBlue">
+      <div className="m-auto w-215 sm:w-542 lg:w-240 flex flex-col sm:flex-row flex-wrap sm:justify-center font-semibold select-none">
         <TypescriptLogo height={maxSize / 4.096} width={maxSize} />
         <PythonLogo height={maxSize} width={maxSize} />
         <DatabaseLogo height={maxSize / 3} width={maxSize / 3} />

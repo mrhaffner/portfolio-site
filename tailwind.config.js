@@ -27,7 +27,9 @@ module.exports = {
         pontano: 'Pontano Sans, sans-serif',
       },
       width: {
+        215: '215px',
         240: '60rem',
+        542: '542px',
       },
       zIndex: {
         '-10': '-10',
