@@ -41,11 +41,11 @@ const Header = () => {
           </div>
         </div>
         <div className="flex flex-col justify-between items-end py-10 lg:py-20">
-          <h2 className="text-2xl 2xl:text-3xl font-bold tracking-wide flex flex-col items-end">
+          <h2 className="text-2xl 2xl:text-3xl font-bold tracking-wide flex flex-col items-end pl-7 lg:pl-0">
             <p>I am a Fullstack Javascript</p>
             <p>and Python Developer</p>
           </h2>
-          <div className="hidden lg:block uppercase flex flex-col items-end">
+          <div className="invisible lg:visible uppercase flex flex-col items-end">
             <h3 className="xl:text-lg 2xl:text-xl font-semibold tracking-wide">
               Dedicated To<span className="text-mint">:</span>
             </h3>
