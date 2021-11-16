@@ -14,7 +14,7 @@ const CssLogo = ({ colorSecondary, height, width }: Props) => (
         width={width}
         height={height}
         viewBox="0 0 512 512"
-        className="fill-current"
+        className="fill-current -ml-1"
       >
         <path d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z" />
         <path d="M405.388 431.408l35.148-393.73H256v435.146z" />

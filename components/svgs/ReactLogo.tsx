@@ -13,7 +13,7 @@ const ReactLogo = ({ height, width }: Props) => (
       height={height}
       fillRule="evenodd"
       viewBox="0 0 120 60"
-      className="fill-current"
+      className="fill-current -ml-3"
     >
       <g transform="matrix(.06928 0 0 .06928 7.367398 13.505331)" fill="none">
         <circle r="50.167" cy="237.628" cx="269.529" />

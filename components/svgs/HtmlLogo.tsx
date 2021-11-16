@@ -14,7 +14,7 @@ const HtmlLogo = ({ colorSecondary, height, width }: Props) => (
         width={width}
         height={height}
         viewBox="0 0 512 512"
-        className="fill-current"
+        className="fill-current -ml-1"
       >
         <path d="M71,460 L30,0 481,0 440,460 255,512" />
         <path d="M256,472 L405,431 440,37 256,37" />

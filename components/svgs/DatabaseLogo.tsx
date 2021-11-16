@@ -12,7 +12,7 @@ const DatabaseLogo = ({ width, height }: Props) => (
         xmlns="http://www.w3.org/2000/svg"
         width={width}
         height={height}
-        className="fill-current"
+        className="fill-current -ml-2.5"
         viewBox="0 0 20 20"
       >
         <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
