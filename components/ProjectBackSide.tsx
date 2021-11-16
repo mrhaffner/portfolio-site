@@ -11,23 +11,23 @@ const ProjectBackSide = ({ project }: Props) => {
 
   return (
     <>
-      <h3 className="text-2xl font-bold uppercase tracking-wider mb-8">
+      <h3 className="text-xl md:text-2xl font-bold uppercase tracking-wider mb-8">
         {project.title}
       </h3>
       {project?.website && (
         <Link href={project.website}>
-          <a className="mb-8 py-2 px-10 bg-darkSlateBlue hover:bg-lightSlateBlue text-white rounded text-lg font-semibold tracking-wider uppercase">
+          <a className="mb-8 py-2 px-8 md:px-10 bg-darkSlateBlue hover:bg-lightSlateBlue text-white rounded md:text-lg font-semibold tracking-wider uppercase">
             See It Live!
           </a>
         </Link>
       )}
       {!project?.website && (
-        <p className="text-xl font-semibold">
+        <p className="text-lg md:text-xl font-semibold">
           Demo and write up <span className="text-gradientPink">@</span> Github
           <span className="text-gradientPink">:</span>
         </p>
       )}
-      <div className="flex text-xl my-3 space-x-8">
+      <div className="flex text-lg md:text-xl my-3 space-x-8">
         {project?.githubFront && (
           <Link href={project.githubFront}>
             <a className="flex space-x-1 hover:text-brightSkyBlue transition">
@@ -50,13 +50,13 @@ const ProjectBackSide = ({ project }: Props) => {
         )}
       </div>
       <div
-        className={`flex flex-wrap justify-center w-80 space-x-2 ${
+        className={`flex flex-wrap justify-center w-80 space-x-2 px-2 ${
           project?.website ? 'mt-3' : 'mt-10'
         }`}
       >
         {project.tags.map((tag: string) => (
           <p
-            className="py-1 px-3 mb-2 border-2 border-darkSlateBlue rounded-full font-medium"
+            className="py-1 px-3 mb-2 border-2 border-darkSlateBlue rounded-full font-medium text-sm md:text-base"
             key={tag + Math.random()}
           >
             {tag}
