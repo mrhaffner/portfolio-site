@@ -15,9 +15,9 @@ const Header = () => {
     //add breakpoint for h-header, probably in css file
     //add regular breakpoints
     <section className="h-header flex items-center text-darkSlateBlue">
-      <div className="flex justify-between h-3/4 w-full px-28">
+      <div className="flex items-center flex-col lg:flex-row lg:items-stretch lg:justify-between h-3/4 w-full px-10 xl:px-20 2xl:px-28">
         <div className="flex flex-col justify-between">
-          <h1 className="text-6xl font-bold tracking-wide space-y-2">
+          <h1 className="text-5xl 2xl:text-6xl font-bold tracking-wide space-y-2">
             <p>
               Hello There<span className="text-mint">,</span>
             </p>
@@ -25,10 +25,13 @@ const Header = () => {
               I<span className="text-mint">'</span>m Matt
             </p>
           </h1>
-          <div className="text-brightSkyBlue">
+          <div className="hidden xl:block text-brightSkyBlue">
             <MediaLinks size={37} />
           </div>
-          <div className="text-xl font-semibold">
+          <div className="hidden lg:block xl:hidden text-brightSkyBlue">
+            <MediaLinks size={30} />
+          </div>
+          <div className="hidden lg:block xl:text-lg 2xl:text-xl font-semibold">
             <p>
               Always Learning<span className="text-mint">.</span>
             </p>
@@ -37,16 +40,18 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-end py-20">
-          <h2 className="text-3xl font-bold tracking-wide flex flex-col items-end">
+        <div className="flex flex-col justify-between items-end py-10 lg:py-20">
+          <h2 className="text-2xl 2xl:text-3xl font-bold tracking-wide flex flex-col items-end">
             <p>I am a Fullstack Javascript</p>
             <p>and Python Developer</p>
           </h2>
-          <div className="uppercase flex flex-col items-end">
-            <h3 className="text-xl font-semibold tracking-wide">
+          <div className="hidden lg:block uppercase flex flex-col items-end">
+            <h3 className="xl:text-lg 2xl:text-xl font-semibold tracking-wide">
               Dedicated To<span className="text-mint">:</span>
             </h3>
-            <p className="text-4xl font-semibold tracking-wide">{buzzWord}</p>
+            <p className="text-2xl xl:text-3xl 2xl:text-4xl font-semibold tracking-wide">
+              {buzzWord}
+            </p>
           </div>
         </div>
       </div>
