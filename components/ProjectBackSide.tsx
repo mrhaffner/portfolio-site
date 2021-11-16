@@ -50,7 +50,7 @@ const ProjectBackSide = ({ project }: Props) => {
         )}
       </div>
       <div
-        className={`flex flex-wrap justify-center w-80 space-x-2 px-2 ${
+        className={`flex flex-wrap justify-center w-80 space-x-2 px-2 md:px-0 ${
           project?.website ? 'mt-3' : 'mt-10'
         }`}
       >
