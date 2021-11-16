@@ -23,12 +23,12 @@ const Home: NextPage = () => {
       </div>
       <section
         id="skills"
-        className="text-center bg-midnightBlue text-white py-32"
+        className="text-center bg-midnightBlue text-white py-28 md:py-32"
       >
-        <h2 className="uppercase text-4xl font-extrabold tracking-wide pb-2">
+        <h2 className="uppercase text-3xl md:text-4xl font-extrabold tracking-wide pb-2 px-6 md:px-0">
           Technologies I Love
         </h2>
-        <h3 className="text-xl tracking-wide pb-12">
+        <h3 className="text-lg md:text-xl tracking-wide pb-12 px-6 md:px-0">
           I may know a thing or two about these technologies
           <span className="text-gradientPink font-black">.</span>
         </h3>
@@ -36,9 +36,9 @@ const Home: NextPage = () => {
       </section>
       <section
         id="projects"
-        className="text-center bg-mint text-darkSlateBlue py-32"
+        className="text-center bg-mint text-darkSlateBlue py-28 md:py-32"
       >
-        <h2 className="uppercase text-4xl font-extrabold tracking-wide pb-16">
+        <h2 className="uppercase text-3xl md:text-4xl font-extrabold tracking-wide pb-16 px-6 md:px-0">
           Selected Projects
           <span className="text-gradientPink font-black">.</span>
         </h2>

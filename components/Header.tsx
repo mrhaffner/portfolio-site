@@ -14,10 +14,10 @@ const Header = () => {
   return (
     //add breakpoint for h-header, probably in css file
     //add regular breakpoints
-    <section className="h-header flex pt-6 md:pt-0 md:items-center text-darkSlateBlue">
-      <div className="flex items-center flex-col lg:flex-row lg:items-stretch lg:justify-between md:h-3/4 w-full px-10 xl:px-20 2xl:px-28">
-        <div className="flex flex-col justify-between">
-          <h1 className="text-5xl 2xl:text-6xl font-bold tracking-wide space-y-2">
+    <section className="h-header flex pt-4 md:pt-0 md:items-center text-darkSlateBlue pr-6 md:pr-0">
+      <div className="flex items-center flex-col lg:flex-row lg:items-stretch lg:justify-between md:h-3/4 w-full md:px-10 xl:px-20 2xl:px-28">
+        <div className="flex flex-col justify-between pr-5 md:pr-0">
+          <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold tracking-wide space-y-2">
             <p>
               Hello There<span className="text-mint">,</span>
             </p>
@@ -40,8 +40,8 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-end py-10 lg:py-20">
-          <h2 className="text-2xl 2xl:text-3xl font-bold tracking-wide flex flex-col items-end pl-7 lg:pl-0">
+        <div className="flex flex-col justify-between items-end py-6 md:py-10 lg:py-20">
+          <h2 className="text-xl md:text-2xl 2xl:text-3xl font-bold tracking-wide flex flex-col items-end pl-7 lg:pl-0">
             <p>I am a Fullstack Javascript</p>
             <p>and Python Developer</p>
           </h2>

@@ -17,7 +17,8 @@ const MediaLinks = ({ size }: Props) => {
           <GithubLogo height={logoSize} width={logoSize} />
         </a>
       </Link>
-      <Link href="">
+      {/* need linked in */}
+      <Link href="/">
         <a className="hover:text-hoverSkyBlue">
           <LinkedInLogo size={logoSize} />
         </a>
