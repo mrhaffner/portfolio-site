@@ -14,8 +14,8 @@ const Header = () => {
   return (
     //add breakpoint for h-header, probably in css file
     //add regular breakpoints
-    <section className="h-header flex items-center text-darkSlateBlue">
-      <div className="flex items-center flex-col lg:flex-row lg:items-stretch lg:justify-between h-3/4 w-full px-10 xl:px-20 2xl:px-28">
+    <section className="h-header flex pt-6 md:pt-0 md:items-center text-darkSlateBlue">
+      <div className="flex items-center flex-col lg:flex-row lg:items-stretch lg:justify-between md:h-3/4 w-full px-10 xl:px-20 2xl:px-28">
         <div className="flex flex-col justify-between">
           <h1 className="text-5xl 2xl:text-6xl font-bold tracking-wide space-y-2">
             <p>

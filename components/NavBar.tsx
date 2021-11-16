@@ -21,7 +21,7 @@ const NavBar = () => {
     <nav className="w-full h-20 flex justify-between items-center px-10 xl:px-20 2xl:px-28 text-darkSlateBlue tracking-wide font-bold xl:text-lg">
       {/* perhaps a better logo */}
       <Link href="/">
-        <a className="font-arizonia text-2xl md:text-3xl pb-2 md:pb-0">
+        <a className="font-arizonia text-2xl md:text-3xl sm:pb-2 md:pb-0">
           Matt<span className="text-gradientPink font-black">.</span>Haffner
           <span className="text-gradientPink font-black">.</span>
         </a>
