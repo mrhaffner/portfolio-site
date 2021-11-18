@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 import ProjectList from '../components/ProjectList';
 import SkillsList from '../components/SkillsList';
+import DividerWave from '../components/svgs/DividerWave';
 import FooterWaves from '../components/svgs/FooterWaves';
 import ThreeDBG from '../components/ThreeDBG';
 
@@ -24,7 +25,7 @@ const Home: NextPage = () => {
       </div>
       <section
         id="skills"
-        className="text-center bg-midnightBlue text-white py-28 md:py-32"
+        className="text-center bg-midnightBlue text-white pt-28 md:pt-32"
       >
         <h2 className="uppercase text-3xl md:text-4xl font-extrabold tracking-wide pb-2 px-6 md:px-0">
           Technologies I Love
@@ -35,9 +36,10 @@ const Home: NextPage = () => {
         </h3>
         <SkillsList />
       </section>
+      <DividerWave />
       <section
         id="projects"
-        className="text-center bg-mint text-darkSlateBlue pt-28 md:pt-32 pb-20 md:pb-24"
+        className="text-center bg-mint text-darkSlateBlue pb-20 md:pb-24 pt-8 lg:pt-0"
       >
         <h2 className="uppercase text-3xl md:text-4xl font-extrabold tracking-wide pb-16 px-6 md:px-0">
           Selected Projects
