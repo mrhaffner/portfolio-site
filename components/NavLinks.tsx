@@ -14,6 +14,11 @@ const NavLinks = () => (
     </li>
     {/* figure out what to do for this */}
     <li>
+      <Link href="#about">
+        <a className="mint-underline">About</a>
+      </Link>
+    </li>
+    <li>
       <Link href="/">
         <a className="mint-underline">Contact</a>
       </Link>

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import About from '../components/About';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
@@ -9,8 +10,11 @@ import DividerWave from '../components/svgs/DividerWave';
 import FooterWaves from '../components/svgs/FooterWaves';
 import ThreeDBG from '../components/ThreeDBG';
 
+//disable scrolling when hamburger menu pops up....
+
 const Home: NextPage = () => {
   //add suspense/loading
+  //add auto-redirect back to home on 404 page
   return (
     <div>
       <Head>
@@ -36,17 +40,20 @@ const Home: NextPage = () => {
         </h3>
         <SkillsList />
       </section>
-      <DividerWave />
+      <DividerWave topColor="#04003f" bottomColor="#4fe2c1" />
       <section
         id="projects"
         className="text-center bg-mint text-darkSlateBlue pb-20 md:pb-24 pt-8 lg:pt-0"
       >
+        {/* link sort needs some pad top */}
         <h2 className="uppercase text-3xl md:text-4xl font-extrabold tracking-wide pb-16 px-6 md:px-0">
           Selected Projects
           <span className="text-gradientPink font-black">.</span>
         </h2>
         <ProjectList />
       </section>
+      <DividerWave topColor="#4fe2c1" bottomColor="#fff" />
+      <About />
       <FooterWaves />
       <Footer />
     </div>

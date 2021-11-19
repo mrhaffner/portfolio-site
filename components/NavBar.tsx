@@ -37,7 +37,7 @@ const NavBar = () => {
           </div>
         )}
         {!showBurgerIcon && (
-          <ul className="flex space-x-8 uppercase">
+          <ul className="flex space-x-4 md:space-x-6 lg:space-x-8 uppercase">
             <NavLinks />
           </ul>
         )}
