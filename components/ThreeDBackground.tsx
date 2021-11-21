@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import * as THREE from 'three';
 import { colors } from '../styles/colors';
 
-const ThreeDBG = () => {
+const ThreeDBackground = () => {
   useEffect(() => {
     //Texture Loader
     const loader = new THREE.TextureLoader();
@@ -172,4 +172,4 @@ const ThreeDBG = () => {
   );
 };
 
-export default ThreeDBG;
+export default ThreeDBackground;

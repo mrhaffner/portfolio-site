@@ -8,7 +8,7 @@ import ProjectList from '../components/ProjectList';
 import SkillsList from '../components/SkillsList';
 import DividerWave from '../components/svgs/DividerWave';
 import FooterWaves from '../components/svgs/FooterWaves';
-import ThreeDBG from '../components/ThreeDBG';
+import ThreeDBackground from '../components/ThreeDBackground';
 
 //disable scrolling when hamburger menu pops up...? maybe fine, really only used on phone
 
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative h-screen w-full">
-        <ThreeDBG />
+        <ThreeDBackground />
         <NavBar />
         <Header />
       </div>
