@@ -7,7 +7,7 @@ interface Props {
 }
 
 const HamburgerMenu = ({ toggleBurgerMenu }: Props) => (
-  <div className="absolute top-0 left-0 w-full h-full bg-white flex justify-center items-center">
+  <div className="fixed top-0 left-0 w-full h-full bg-white flex justify-center items-center z-50 overflow-hidden">
     <div
       className="absolute top-0 right-0 pt-7 pr-6 cursor-pointer"
       onClick={toggleBurgerMenu}

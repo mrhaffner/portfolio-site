@@ -10,7 +10,7 @@ import DividerWave from '../components/svgs/DividerWave';
 import FooterWaves from '../components/svgs/FooterWaves';
 import ThreeDBG from '../components/ThreeDBG';
 
-//disable scrolling when hamburger menu pops up....
+//disable scrolling when hamburger menu pops up...? maybe fine, really only used on phone
 
 const Home: NextPage = () => {
   //add suspense/loading
