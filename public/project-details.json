@@ -5,7 +5,7 @@
       "githubFront": "https://github.com/mrhaffner/ski-pass-snow-compare-front",
       "githubBack": "https://github.com/mrhaffner/ski-pass-snow-compare",
       "website": "https://ski-pass-snow-compare-front.vercel.app/",
-      "tags": ["ReactJS", "Typescript", "Java", "Spring Boot", "PostreSQL"]
+      "tags": ["ReactJS", "Typescript", "Java", "Spring Boot", "PostgreSQL"]
     },
     {
       "title": "Trello Clone",
