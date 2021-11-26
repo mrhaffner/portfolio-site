@@ -11,21 +11,24 @@ const About = () => (
       <span className="text-gradientPink font-black">.</span>
     </h2>
     <div className="flex justify-between w-280">
+      {/* create and put a mint dot background offset to the image */}
       <div className="w-5/12">Replace with Image</div>
       <div className="w-5/12 text-xl space-y-4">
         {/* too many 'I's' */}
         <p>
-          I have always had a passion for learning. As a son of two teachers, I
-          have always been driven to learn. If there is one strength that I was
-          endowed with, it is a talent and drive for self-education.
+          I have always had a passion for learning. As the son of two teachers,
+          I have always been driven to learn. If there is one strength that I
+          was endowed with, it is a talent and drive for self-education.
         </p>
         {/* replace software and data with a better phrase */}
         <p>
           I am a self-taught software engineer. I hold a bachelor's degree in
           psychology from Metropolitan State University. After falling in love
-          with software and data, I have returned to Metro to purse a degree in
+          with software and data, I have returned to Metro to pursue a degree in
           data science.
         </p>
+        {/* talk about passion for health/self-development.  maybe it's own paragraph
+        tie to coaching bjj */}
         <p>
           I have a passion for technical hobbies and sports. I coach Brazilian
           Jiu-Jitsu at the legendary{' '}
@@ -34,7 +37,7 @@ const About = () => (
               Minnesota Martial Arts Academy
             </a>
           </Link>
-          . Adventurous at heart, I also enjoy skiing and rock climbing.
+          . Adventurous at heart, you may also find me skiing or rock climbing.
         </p>
       </div>
     </div>
