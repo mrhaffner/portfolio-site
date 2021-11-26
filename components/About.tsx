@@ -10,7 +10,7 @@ const About = () => (
       About
       <span className="text-gradientPink font-black">.</span>
     </h2>
-    <div className="flex space-y-14 items-center justify-between flex-col lg:flex-row xl:w-280 text-lg md:text-xl lg:px-10 xl:px-0">
+    <div className="flex space-y-14 lg:space-y-0 items-center lg:items-start justify-between flex-col lg:flex-row xl:w-280 text-lg md:text-xl lg:px-10 xl:px-0">
       {/* create and put a mint dot background offset to the image */}
       <div className="w-9/12 lg:w-5/12">Replace with Image</div>
       <div className="w-9/12 lg:w-5/12 space-y-4">
