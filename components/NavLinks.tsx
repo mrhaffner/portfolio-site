@@ -19,7 +19,7 @@ const NavLinks = () => (
       </Link>
     </li>
     <li>
-      <Link href="/">
+      <Link href="#contact">
         <a className="mint-underline">Contact</a>
       </Link>
     </li>
